@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	int a[10]={10,12,13,22,34,44,45,5,55,7};
+	int sum;
+	sum=a[0]+a[1]+a[2]+a[3]+a[4]+a[5]+a[6]+a[7]+a[8]+a[9];
+	printf("%d",sum);
+	return 0;
+}
